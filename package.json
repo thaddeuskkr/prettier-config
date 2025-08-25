@@ -1,9 +1,8 @@
 {
-  "name": "@tk/prettier-config",
+  "name": "@thaddeuskkr/prettier-config",
   "version": "1.0.0",
   "description": "My go-to Prettier configuration",
-  "type": "module",
-  "exports": "./index.json",
+  "main": "./index.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thaddeuskkr/prettier-config.git"
