@@ -1,0 +1,26 @@
+{
+  "name": "@tk/prettier-config",
+  "version": "1.0.0",
+  "description": "My go-to Prettier configuration",
+  "type": "module",
+  "exports": "./index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaddeuskkr/prettier-config.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "Thaddeus Kuah <tk@tkkr.dev> (https://tkkr.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thaddeuskkr/prettier-config/issues"
+  },
+  "homepage": "https://github.com/thaddeuskkr/prettier-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  }
+}
