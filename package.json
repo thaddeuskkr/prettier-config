@@ -1,9 +1,15 @@
 {
   "name": "@thaddeuskkr/prettier-config",
-  "version": "1.0.1",
+  "version": "1.1.5",
   "description": "My go-to Prettier configuration",
   "type": "module",
-  "exports": "./index.js",
+  "files": [
+    "./index.*",
+    "./package.json"
+  ],
+  "scripts": {
+    "build": "tsc --build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thaddeuskkr/prettier-config.git"
@@ -19,6 +25,9 @@
   "homepage": "https://github.com/thaddeuskkr/prettier-config#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
